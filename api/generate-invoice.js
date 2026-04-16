@@ -157,7 +157,7 @@ export default async function handler(req, res) {
     
     // ✅ ONLY upload the PDF, NOT the Drive File ID
     const updateFields = {
-      'Invoice PDF': [{
+      'Reciept PDF': [{
         url: appsScriptResult.fileUrl,
         filename: appsScriptResult.fileName
       }]
